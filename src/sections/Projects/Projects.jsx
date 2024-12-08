@@ -1,7 +1,7 @@
 import styles from "./ProjectStyles.module.css";
 import web from "../../assets/web2.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
+import tourism_template from "../../assets/tourism template.jpg";
+import coverphoto from "../../assets/coverphoto.jpeg";
 import teenTurtles from "../../assets/Teen-Turtles.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -17,13 +17,13 @@ function Projects() {
           p="Web Application"
         />
         <ProjectCard
-          src={freshBurger}
+          src={tourism_template}
           link={"https://github.com/Karthik-Mopidevi/john-tourism"}
           h3={"Tourism Website"}
           p="Web Application"
         />
         <ProjectCard
-          src={hipsster}
+          src={coverphoto}
           link={"https://github.com/Karthik-Mopidevi/Portfolio"}
           h3={"Portfolio"}
           p="Web Application using react"
